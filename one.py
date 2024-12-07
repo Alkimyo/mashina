@@ -46,6 +46,6 @@ if st.button("Yoqilg'i sarfini ko'rish uchun bosing!"):
 
         st.success(f"{brand} brendi uchun avtomobilning yoqilg'i sarfi: {round(mpg_prediction, 2)} MPG")
     except Exception as e:
-        st.error(f"Bashorat qilishda xatolik yuz berd
+        st.error(f"Bashorat qilishda xatolik yuz berdi)
 
 i: {e}")
