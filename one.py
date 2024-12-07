@@ -14,7 +14,7 @@ tax = st.number_input("100 tezlikka necha sekuntda chiqishi: ", min_value=0)
 
 # Modelni yuklash
 try:
-    model = joblib.load('/home/shohruh/Tolibjon/yoqilgi.pkl')
+    model = joblib.load('yoqilgi.pkl')
 except FileNotFoundError:
     st.error("Model fayli topilmadi. Iltimos, to'g'ri yo'lni kiriting.")
     st.stop()
